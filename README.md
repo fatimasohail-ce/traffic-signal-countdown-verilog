@@ -34,7 +34,7 @@ The system automatically transitions between these states while displaying the r
 - parameter integer GREEN_TIME = 10,
 - parameter integer YELLOW_TIME = 4
 
-## State Sequence
+## State Sequence & Project Structure
 
 The traffic signal follows this sequence:
 
@@ -52,9 +52,6 @@ NS GREEN
 (repeats)
 
 
-## Project Structure
-
-```text
 .
 ├── src/
 │   ├── design.sv
