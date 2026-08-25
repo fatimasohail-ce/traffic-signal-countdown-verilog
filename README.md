@@ -34,24 +34,6 @@ The system automatically transitions between these states while displaying the r
 - parameter integer GREEN_TIME = 10,
 - parameter integer YELLOW_TIME = 4
 
-## Project Structure
-- src/
-. design.sv
-. testbench.sv
-
-- simulation/
-. run.sh
-. traffic_signal.vcd
-
-- proteus/
-. Traffic Light.pdsprj
-
-- docs/
-. LCSD Project Report.pdf
-. PROJECT Codes.pdf
-
-- README.md
-
 ## State Sequence
 
 The traffic signal follows this sequence:
@@ -68,4 +50,27 @@ EW YELLOW
 NS GREEN
    ↓
 (repeats)
+
+
+## Project Structure
+
+```text
+.
+├── src/
+│   ├── design.sv
+│   └── testbench.sv
+│
+├── simulation/
+│   ├── run.sh
+│   └── traffic_signal.vcd
+│
+├── proteus/
+│   └── Traffic Light.pdsprj
+│
+├── docs/
+│   ├── LCSD Project Report.pdf
+│   └── PROJECT Codes.pdf
+│
+└── README.md
+
 
