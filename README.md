@@ -36,20 +36,20 @@ The system automatically transitions between these states while displaying the r
 
 ## Project Structure
 - src/
-│   ├── design.sv
-│   └── testbench.sv
-│
+. design.sv
+. testbench.sv
+
 - simulation/
-│   ├── run.sh
-│   └── traffic_signal.vcd
-│
+. run.sh
+. traffic_signal.vcd
+
 - proteus/
-│   └── Traffic Light.pdsprj
-│
+. Traffic Light.pdsprj
+
 - docs/
-│   ├── LCSD Project Report.pdf
-│   └── PROJECT Codes.pdf
-│
+. LCSD Project Report.pdf
+. PROJECT Codes.pdf
+
 - README.md
 
 ## State Sequence
