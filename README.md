@@ -35,23 +35,22 @@ The system automatically transitions between these states while displaying the r
 - parameter integer YELLOW_TIME = 4
 
 ## Project Structure
-.
-├── src/
+- src/
 │   ├── design.sv
 │   └── testbench.sv
 │
-├── simulation/
+- simulation/
 │   ├── run.sh
 │   └── traffic_signal.vcd
 │
-├── proteus/
+- proteus/
 │   └── Traffic Light.pdsprj
 │
-├── docs/
+- docs/
 │   ├── LCSD Project Report.pdf
 │   └── PROJECT Codes.pdf
 │
-└── README.md
+- README.md
 
 ## State Sequence
 
